@@ -1,0 +1,88 @@
+{
+  "id": "twodsix-shadows-adventure",
+  "title": "twodsix shadows adventure",
+  "url": "https://github.com/classictraveller777/twodsix-shadows-adventure",
+  "version": "1.0.0",
+  "manifest": "https://github.com/classictraveller777/twodsix-shadows-adventure/releases/latest/download/module.json",
+  "download": "https://github.com/classictraveller777/twodsix-shadows-adventure/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "wall-height",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "twodsix",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "gm-vision",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-tokenbar",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tile-sort",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "cepheus-light-items-additional",
+      "label": "cepheus light items additional",
+      "path": "packs/cepheus-light-items-additional",
+      "type": "Item",
+      "system": "twodsix",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "twodsix-shadows-adventure",
+      "label": "twodsix shadows adventure",
+      "path": "packs/twodsix-shadows-adventure",
+      "type": "Adventure",
+      "system": "twodsix",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": "The classic Traveller adventure, Shadows, for the Twodsix module (https://foundryvtt.com/packages/twodsix/) , based on the original Traveller adventure published in the early 1980s. The players are tasked with the investigation of a pyramid structure on the surface of a mostly unexplored planet with a toxic atmosphere.   \n\nNote this adventure is 'not ready to run'. This module includes GM only notes ( on the Journal tab in the Foundry UI ) with instructions and suggestions to help the GM prep the adventure. The GM only notes also cover other considerations such as vacc suit damage rules which were not included in the published adventure, converting the adventure from the classic Traveller for use with other systems such as Cepheus, as well specific scene notes. \n\nThe GM also requires a copy of the published Traveller adventure Shadows for the adventure background information and location descriptions within the pyramid structure to be able to run this adventure. \n \nNote the actors in the adventure have been pre-configured for use with the cepheus light ruleset. The GM has the option to reconfigure the adventure to use one of the rule systems supported by the Twodsix module. ( In Foundry game settings &gt; configure game settings &gt; twodsix. For more details refer https://github.com/xdy/twodsix-foundryvtt/wiki/System-Configuration-Guide ). If the GM chooses to use a rulset other than cepheus light the GM must reconfigure the actors, both players and non players, in terms of stats and equipment. \nThe Twodsix discord ( https://discord.gg/KUAwPrj ) is also suggested as a resource to GMs for assistance.  \n\nThe intent of this adventure, besides re-intepreting Shadows for use with Foundry VTT, is to provide the basis GM's new to Foundry ( and/or Twodsix ), as a short, small scale, simple adventure to learn Foundry and build skills and confidence with Foundry, as did I the module author, through developing this module, with the help and support of others in the Foundry community ( the official Foundry and Twodsix discords, reddit.com/r/Foundry, https://foundryvtt.wiki/ etc ). By design I limited the use of 3rd party modules to a minimum to help both myself, and others starting out that want to use this module. For example use of the levels module in Foundry in of itself is already complicated. \nThere is ample scope for GM's once they have become confident with Foundry to modify this adventure and / or use other modules to improve gameplay or graphical effects such animations etc.  \n\n\nNote this module is unofficial.",
+  "authors": [
+    {
+      "name": "classictraveller777  ( on reddit )",
+      "email": "classictraveller777@gmail.com",
+      "discord": "vm777",
+      "flags": {}
+    }
+  ]
+}
